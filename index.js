@@ -26,7 +26,19 @@ app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
-//Route to API
+app.get("/tables", function(req, res) {
+  res.sendFile(path.join(__dirname, "tables.html"));
+});
+
+app.get("/input", function(req, res) {
+  res.sendFile(path.join(__dirname, "input.html"));
+});
+
+app.get("/api/tables:table", function(req, res) {
+  let chosen = req.params.table;
+
+  console.log(chosen);
+});
 
 //GET tables avail and waitlist
 
