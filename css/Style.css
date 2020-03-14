@@ -7,3 +7,30 @@ h1 {
 h2{
     font-size: 30px;
 }
+
+form{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formTitle{
+    margin-left:21%;
+}
+
+.formItem{
+    margin-left:21%;
+}
+label{
+    font-size:25px;
+}
+input{
+    width: 50%;
+}
+#submitBtn{
+    width:10%;
+}
