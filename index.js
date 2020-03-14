@@ -92,3 +92,9 @@ app.post("/api/tables", function(req, res){
 app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);
 });
+
+
+//testing submit button (kaden)
+function submitInfo(){
+  console.log("you pressed the button...");
+}

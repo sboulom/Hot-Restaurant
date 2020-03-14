@@ -1,17 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
         , initial-scale=1.0">
-        <title>Table Reservation</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./css/Style.css">
-    </head>
-    <body>
-        <h1>the forms will go in here</h1>
+    <title>Reservations</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/Style.css">
+    <script src="index.js"></script>
+</head>
 
-
-    </body>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Hot Restaurant</h1>
+            <hr>
+            <h2>Make your reservation</h2>
+            <a href="tables.html"><button class="btn btn-lg btn-primary"><span class="fa fa-list-alt"></span> View
+                    Tables</button></a>
+            <a href="index.html"><button class="btn btn-lg btn-primary">Home</button></a>
+        </div>
+    </div>
+        <h2 class="formTitle">Reservation Info: </h2>
+        
+        <form>
+            <label class="formItem" for="fname">First name:</label><br>
+            <input class="formItem" type="text" id="fname" name="fname" value="John"><br>
+            <label class="formItem" for="lname">Last name:</label><br>
+            <input class="formItem" type="text" id="lname" name="lname" value="Doe"><br>
+            <label class="formItem" for="email">Email:</label><br>
+            <input class="formItem" type="text" id="email" name="email" value="example@example.com"><br>
+            <label class="formItem" for="phone">Phone number:</label><br>
+            <input class="formItem" type="text" id="phone" name="phone" value="(123)456-7890"><br>
+            <label class="formItem" for="unique">Unique ID:</label><br>
+            <input class="formItem" type="text" id="unique" name="unique" value="123456"><br><br>
+            <input class="formItem" id="submitBtn" type="submit" value="Submit" onclick="submitInfo()">
+          </form> 
+        
+        
+        </body>
 </html>
