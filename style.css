@@ -1,0 +1,28 @@
+.header{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 300px;
+    background-color:yellow;
+}
+.title{
+    text-align: center;
+    font-size: 100px;
+}
+.button1{
+    background-color: blue;
+    color: white;
+    height:45px;
+    width: 10%;
+    margin-left:40%;
+}
+.button2{
+    background-color: red;
+    color: white;
+    height:45px;
+    width: 10%;
+    margin-right:35;
+}
+.hr{
+
+}
